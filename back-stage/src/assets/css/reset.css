@@ -1,0 +1,70 @@
+html{ 
+	font-size:100px; 
+	min-width: 1000px;
+}
+html , body {
+	width: 100%;
+	height: 100%;
+}
+body, ul, ol, li, input, p , h1, h2, h3, h4, h5, h6, dl, dd, dt, form {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+img {
+	border: none;
+}
+input {
+	border: none;
+	background: none;
+}
+input:focus {
+	outline: none;
+}
+body {
+	font: 12px/1.5 'microsoft yahei', 'SimSun','宋体',arial,sans-serif;
+}
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+i{font-style: normal;}
+textarea{resize:none;}
+
+/* 工具 */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+.clearfix {
+	*zoom: 1;
+}
+.container {
+	width: 1226px;
+	margin: 0 auto;
+}
+.l {
+	float: left;
+}
+.r {
+	float: right;
+}
+td,th{
+	margin: 0;
+	padding: 0;
+}
+table{
+	margin: 0;
+	padding: 0;
+	border-collapse:collapse;
+}
